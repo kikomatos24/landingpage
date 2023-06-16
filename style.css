@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 2em;
+    color: white;
+    pointer-events: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover 
+{
+    background: white;
+    color: #fff;
+}
+
+.Akatsuki {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f9f9f9;
+}
+
+#text {
+    position: relative;
+    font-size: 5em;
+    color: white;
+
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.background
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/akatsuki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.backgroundAbout
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/obito.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.backgroundsocial 
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/pain.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.backgroundContact 
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/madara2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutpage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f9f9f9;
+}
+
+#text {
+    position: relative;
+    font-size: 5em;
+    color:rgb(250, 89, 89);
+
+}
+
+.socialpage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+}
+
+#text {
+    position: relative;
+    font-size: 5em;
+    color: rgb(231, 36, 36);
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f9f9f9;
+}
+
+#text {
+    position: relative;
+    font-size: 5em;
+    color: rgb(231, 36, 36);
+}
+
+
+
+
+
+
+

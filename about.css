@@ -1,0 +1,9 @@
+.Background
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/obito.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
